@@ -1,0 +1,36 @@
+- title: "Plot Visualizer"
+  date: "Oct. 2023 - Dec. 2023"
+  # venue: Apple Human Interface Guidelines
+  description: Implement a pipeline with computer vision algorithms and machine learning (YOLO and fineuned OCR) to extract data from various forms of scientific plots.
+  url: https://devpost.com/software/the-plotters
+  # venue-shorthand: Apple Human Interface Guidelines
+  year: "Oct. 2023 - Dec. 2023"
+  # recording: 
+  course: HackGT X, 2023
+  featured: true
+  feature-order: 1
+  feature-title: Plot Visualizer
+  feature-description: |
+    Implement a pipeline to extract source data from various forms of scientific plots.<br>
+    - Utilized YOLO and fineuned OCR to extract data from various forms of scientific plots.<br>
+    - Deploy with Flask backend and HTML/CSS frontend.<br>
+  image: /images/featured/plot_visualizer.png
+
+- title: "Stock Tweet"
+  date: "Feb. 2023"
+  # venue: Apple Human Interface Guidelines
+  description: A tool tailored for PR teams of companies.
+  url: https://devpost.com/software/stocktweet
+  # venue-shorthand: Apple Human Interface Guidelines
+  year: "Feb. 2023"
+  # recording: 
+  course: Hacklytics, 2022
+  featured: true
+  feature-order: 2
+  feature-title: Stock Tweet
+  feature-description: |
+    A tool tailored for PR teams of companies to analyze impact of tweets on stock prices.<br>
+    - Trained a word2vec model for tweet analysis.<br>
+    - Utilized GPT for generation of sample tweets.<br>
+    - Deploy with Flask backend and Wix on Google Cloud.<br>
+  image: /images/featured/stock_tweet.png

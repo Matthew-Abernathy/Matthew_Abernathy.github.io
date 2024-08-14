@@ -7,6 +7,7 @@ permalink: everything-else/
 ## [Projects][projects]
 Things I do, including research, academic course projects, and miscellaneous interests.
 
+{%comment%}
 ## [Blog][blog]
 Things I think about, read, and write.
 
@@ -26,7 +27,6 @@ You can also find me on [Instagram][insta]. -->
 ## [Archive][archive]
 The one-stop shop, including all posts from the Blog, Monthly Music, and Projects. 
 
-[projects]: {{ site.url }}/projects
 [blog]: {{ site.url }}/blog
 [stuff-i-use]: {{ site.url }}/stuff-i-use "Stuff I Use."
 [mm]: {{ site.url }}/monthly-music "Monthly Music."
@@ -36,3 +36,7 @@ The one-stop shop, including all posts from the Blog, Monthly Music, and Project
 [d80]: http://www.nikonusa.com/en/Nikon-Products/Product-Archive/dslr-cameras/D80.html "Nikon D80."
 [insta]: https://instagram.com/fredhohman/ "My Instagram Account."
 [the-setup]: https://usesthis.com "The Setup."
+{%endcomment%}
+
+[projects]: {{ site.url }}/projects
+

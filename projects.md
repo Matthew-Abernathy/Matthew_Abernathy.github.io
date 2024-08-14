@@ -6,6 +6,33 @@ permalink: projects/
 
 Things I do, including research, academic course projects, and miscellaneous interests.
 
+## Personal Projects
+
+<div class="cover-wrapper cover-wrapper-2-col l-middle">
+	{% for feature in site.data.personal_projects %}
+		{% if feature.featured == true %}
+			{% include feature.html feature=feature %}
+		{% endif %}
+	{% endfor %}
+</div>
+
+## Course Projects
+
+Projects completed for courses taken at Georgia Tech.
+
+<div class="project-spacer-small"></div>
+
+<div class="cover-wrapper cover-wrapper-2-col l-middle">
+	{% for feature in site.data.designs %}
+		{% if feature.featured == true %}
+			{% include feature.html feature=feature %}
+		{% endif %}
+	{% endfor %}
+</div>
+
+<div class="project-spacer"></div>
+
+{%comment%}
 ## PhD Dissertation
 
 My dissertation contributed interactive interfaces to enable machine learning interpretability at scale and for everyone.
@@ -67,22 +94,6 @@ Enhanced reading experiences that demonstrate what's possible when dynamic media
 </ul>
 
 <div class="project-spacer-small"></div>
-
-## Apple Chart Design Guidelines
-
-Guidance and best practices to help designers and developers create the best charts for any Apple platform.
-
-<div class="project-spacer-small"></div>
-
-<div class="cover-wrapper cover-wrapper-2-col l-middle">
-	{% for feature in site.data.designs %}
-		{% if feature.featured == true %}
-			{% include feature.html feature=feature %}
-		{% endif %}
-	{% endfor %}
-</div>
-
-<div class="project-spacer"></div>
 
 
 ## Parametric Press Articles
@@ -148,4 +159,5 @@ A born-digital, experimental magazine dedicated to showcasing the expository pow
 
 [trefoil]: {{ site.url }}/projects/3d-printing-the-trefoil-knot-and-its-pages "3D Printing the Trefoil Knot and its Pages"
 [reu]: {{ site.url }}/projects/mathematics-&-computational-science-reu "Mathematics & Computational Science REU"
+{%endcomment%}
 

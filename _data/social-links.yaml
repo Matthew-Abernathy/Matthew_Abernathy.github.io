@@ -1,56 +1,50 @@
 - id: email
-  description: "fredhohman@apple.com"
+  description: "qzheng75@gatech.edu"
   color: "#515151"
   class: "fas fa-envelope icon"
-  url: "mailto:fredhohman@apple.com"
+  url: "mailto:qzheng75@gatech.edu"
   on-homepage: true
   cv-group: 1
 
 - id: twitter
-  description: "@fredhohman"
+  description: "@qianyu_zheng"
   color: "#1da1f2"
   class: "fab fa-twitter icon"
-  url: https://twitter.com/fredhohman
+  url: "https://X.com/qianyu_zheng"
   on-homepage: true
   cv-group: 2
 
 - id: github
-  description: "@fredhohman"
+  description: "qzheng75"
   color: "#6e5494"
   class: "fab fa-github icon"
-  url: "https://github.com/fredhohman"
+  url: "https://github.com/qzheng75"
   on-homepage: true
   cv-group: 2
 
 - id: linkedin
-  description: "fredhohman"
+  description: "zheng-qianyu-365b60250"
   color: "#0077b5"
   class: "fab fa-linkedin-in icon"
-  url: "http://www.linkedin.com/in/fredhohman"
+  url: "https://www.linkedin.com/in/zheng-qianyu-365b60250/"
   on-homepage: true
 
-- id: mastodon
-  description: "fredhohman"
-  color: "#6364FF"
-  class: "fab fa-mastodon icon"
-  url: "https://vis.social/@fredhohman"
-  on-homepage: true
 
 - id: home
-  description: "fredhohman.com"
+  description: "qianyuzheng.com"
   color: "#515151"
   class: "fas fa-home icon"
-  url: "https://fredhohman.com"
+  url: "https://qianyuzheng.com"
   on-homepage: false
   cv-group: 1
 
-- id: scholar
-  description: "Google Scholar"
-  color: "#515151"
-  class: "fa fa-graduation-cap icon"
-  url: "https://scholar.google.com/citations?user=1w0TLT8AAAAJ&hl=en"
-  on-homepage: true
-  cv-group: 2
+# - id: scholar
+#   description: "Google Scholar"
+#   color: "#515151"
+#   class: "fa fa-graduation-cap icon"
+#   url: "https://scholar.google.com/citations?user=1w0TLT8AAAAJ&hl=en"
+#   on-homepage: true
+#   cv-group: 2
 
 - id: cv
   description: CV PDF
@@ -60,9 +54,9 @@
   on-homepage: false
   cv-group: 1
 
-- id: cv-web
-  description: CV
-  color: "#515151"
-  class: "fa fa-address-card icon"
-  url: "/cv"
-  on-homepage: false
+# - id: cv-web
+#   description: CV
+#   color: "#515151"
+#   class: "fa fa-address-card icon"
+#   url: "/cv"
+#   on-homepage: false

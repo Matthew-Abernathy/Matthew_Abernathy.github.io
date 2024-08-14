@@ -1,7 +1,7 @@
 /* TEAM */
-	Author: Fred Hohman
-	Twitter: @fredhohman
-	Location: Seattle, United States
+	Author: Qianyu Zheng
+	X: @qianyu_zheng
+	Location: Atlanta, GA, United States
 
 /* SITE */
     Language: English

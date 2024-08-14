@@ -14,6 +14,12 @@
 				<a href="{{ feature.url }}">{{ feature.feature-title }}</a>
 			</div>
 
+			<div class="cover-subtitle">
+				{% if feature.course %}
+				<b><i>{{ feature.course }}</i></b>
+				{% endif %}
+			</div>
+
 			<div class="cover-subtitle">{{ feature.feature-description }}</div>
 
 			<div class="cover-venue">

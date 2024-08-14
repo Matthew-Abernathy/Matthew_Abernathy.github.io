@@ -1,19 +1,19 @@
 {
-  "name": "fredhohman.github.io",
+  "name": "qzheng75.github.io",
   "version": "1.0.0",
-  "description": "Fred Hohman's website.",
+  "description": "Qianyu Zheng's personal website.",
   "main": "index.js",
   "scripts": {
     "start": "bundle exec jekyll serve --livereload"
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/fredhohman/fredhohman.github.io.git"
+    "url": "git+https://github.com/qzheng75/qzheng75.github.io.git"
   },
-  "author": "Fred Hohman",
+  "author": "Qianyu Zheng",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/fredhohman/fredhohman.github.io/issues"
+    "url": "https://github.com/qzheng75/qzheng75.github.io/issues"
   },
-  "homepage": "https://github.com/fredhohman/fredhohman.github.io#readme"
+  "homepage": "https://github.com/qzheng75/qzheng75.github.io#readme"
 }

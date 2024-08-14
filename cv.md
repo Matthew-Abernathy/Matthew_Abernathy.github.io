@@ -6,9 +6,9 @@ jsarr:
 - js/scripts.js
 ---
 
-<h1 id="cv-title"><a href="{{ site.url }}">Fred Hohman</a></h1>
+<h1 id="cv-title"><a href="{{ site.url }}">Qianyu Zheng</a></h1>
 
-<p id="cv-subtitle"><i>Research Scientist (<span class="cv-vis">HCI</span> + <span class="cv-ai">ML</span>)</i></p>
+<p id="cv-subtitle"><i>Undergraduate Student, Researcher (<span class="cv-ai">ML</span>)</i></p>
 
 <!-- <div id="cv-toc">
 <ul class="cv-description">
@@ -30,13 +30,13 @@ jsarr:
 </div> -->
 
 <div>
-I design and develop <b><span class="cv-vis">interactive interfaces</span></b> to help people <b><span class="cv-ai">understand machine learning</span></b> models and data-driven systems. Besides building tools, I also create data visualizations and write interactive articles to simply communicate complex ideas.
+I primarily work on applying computational methods, specifically <b>machine learning</b>, in scientific discoveries of natural science. My current research focuses on leveraging big data mining, machine learning, and high performance computing in <b>computational modeling</b> to answer scientific questions and empower data-driven decision making.
 </div>
 
 <div class="cv-spacer"></div>
 
 <div>
-I have collaborated with researchers, designers, developers, and artists while working at Apple, Microsoft Research, NASA Jet Propulsion Lab, and Pacific Northwest National Lab.
+During my Bachelor studies and internship, I have collaborated with researchers, scholars, and developers from Georgia Tech <img class="intro-logo" style="width: 24px;" src="/images/Georgia_Tech_logo.svg">, Leibnitz Institute of Plant Biochemistry <img class="intro-logo" style="width: 24px;" src="/images/ipb_logo.svg">, and University of Maryland <img class="intro-logo" style="width: 24px;" src="/images/UMD_logo.svg">.
 </div>
 
 <div class="cv-spacer"></div>
@@ -90,6 +90,13 @@ I have collaborated with researchers, designers, developers, and artists while w
 {% include cv/award.html award=award %}
 {% endfor %}
 
+## Certificates
+
+{% for certificate in site.data.certificates %}
+{% include cv/certificate.html certificate=certificate %}
+{% endfor %}
+
+{%comment%}
 ## Publications
 
 ### Selected: Latest & Greatest
@@ -259,7 +266,6 @@ Local Group
 Universe  
 </span> -->
 
-
 [cv]: {{ site.url }}/cv.pdf "My CV."
 
 [poloclub]: http://poloclub.gatech.edu "Polo Club of Data Science"
@@ -281,3 +287,5 @@ Universe
 [twitter]: https:/www.twitter.com/fredhohman "@fredhohman"
 [github]: https:/www.github.com/fredhohman "github.com/fredhohman"
 [nstrf]: https://www.nasa.gov/strg/nstrf "NASA Space Technology Research Fellowship"
+
+{%endcomment%}

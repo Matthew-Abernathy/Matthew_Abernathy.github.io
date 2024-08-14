@@ -1,30 +1,55 @@
-- title: "Patterns: Charting Data"
-  date: 2022
-  venue: Apple Human Interface Guidelines
+- title: "GTZAN Audio Genre Classification"
+  date: "Jan. 2024 - May 2024"
+  # venue: Apple Human Interface Guidelines
   description: Presenting data in a chart can help you communicate information with clarity and appeal
-  url: https://developer.apple.com/design/human-interface-guidelines/patterns/charting-data
-  venue-shorthand: Apple Human Interface Guidelines
-  year: 2022
-  recording: 
+  url: https://qzheng75.github.io/GTZAN-Music-Classification/
+  # venue-shorthand: Apple Human Interface Guidelines
+  year: "Jan. 2024 - May 2024"
+  # recording: 
   featured: true
   feature-order: 1
-  feature-title: Charting Data Patterns
-  feature-description: Presenting data in a chart can help you communicate information with clarity and appeal
-  image: /images/featured/patterns.png
+  course: "CS 4641: Machine Learning"
+  feature-title: GTZAN Audio Genre Classification
+  feature-description: Design multiple competent Machine Learning pipelines to classify audio genres.
+  image: /images/featured/mel_spectrogram.png
 
-- title: "Components: Charts"
-  date: 2022
-  venue: Apple Human Interface Guidelines
-  description: A chart helps you communicate data in a graphical, approachable way
-  url: https://developer.apple.com/design/human-interface-guidelines/components/content/charts
-  venue-shorthand: Apple Human Interface Guidelines
-  year: 2022
-  recording: 
+- title: "GreenPlate: Diet Management App"
+  date: "Jan. 2024 - May 2024"
+  description: Implement an Android app that helps users track their diet and nutrition. Feature MVVM architecture, Design Patterns, Firebase, and Unit Testing.
+  url: https://wp043.github.io/GreenPlate/
+  year: "Jan. 2024 - May 2024"
   featured: true
   feature-order: 2
-  feature-title: Chart Components
-  feature-description: A chart helps you communicate data in a graphical, approachable way
-  image: /images/featured/components.png
+  course: "CS 2340: Objects and Design"
+  feature-title: "GreenPlate: Diet Management App"
+  feature-description: Implement an Android app that helps users track their diet and nutrition. Feature MVVM architecture, Design Patterns, Firebase, and Unit Testing.
+  image: /images/featured/android_studio.png
+
+- title: "Applications of SVD"
+  date: "Oct. 2023 - Nov. 2023"
+  description: Investigated the applications of Singular Value Decomposition (SVD) in image compression and signal denoising.
+  url: ../papers/SVD.pdf
+  year: "Oct. 2023 - Nov. 2023"
+  featured: true
+  feature-order: 3
+  course: "MATH 3406: A Second Course in Linear Algebra"
+  feature-title: "Applications of SVD"
+  feature-description: Investigated the applications of Singular Value Decomposition (SVD) in image compression and signal denoising.
+  image: /images/featured/SVD.png
+
+# - title: "Components: Charts"
+#   date: 2022
+#   venue: Apple Human Interface Guidelines
+#   description: A chart helps you communicate data in a graphical, approachable way
+#   url: https://developer.apple.com/design/human-interface-guidelines/components/content/charts
+#   venue-shorthand: Apple Human Interface Guidelines
+#   year: 2022
+#   recording: 
+#   featured: true
+#   feature-order: 2
+#   feature-title: Chart Components
+#   feature-description: A chart helps you communicate data in a graphical, approachable way
+#   image: /images/featured/components.png
 
 - title: "IDEA Workshop Proceedings Cover (2017, 2018)"
   date: "2017 — 2018"
