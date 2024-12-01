@@ -6,19 +6,7 @@ permalink: projects/
 
 Things I do, including research, academic course projects, and miscellaneous interests.
 
-## Personal Projects
-
-<div class="cover-wrapper cover-wrapper-2-col l-middle">
-	{% for feature in site.data.personal_projects %}
-		{% if feature.featured == true %}
-			{% include feature.html feature=feature %}
-		{% endif %}
-	{% endfor %}
-</div>
-
-## Course Projects
-
-Projects completed for courses taken at Georgia Tech.
+## Long-term Projects
 
 <div class="project-spacer-small"></div>
 
@@ -31,6 +19,18 @@ Projects completed for courses taken at Georgia Tech.
 </div>
 
 <div class="project-spacer"></div>
+
+## Hackathon Projects
+
+Projects completed for Hackathons.
+
+<div class="cover-wrapper cover-wrapper-2-col l-middle">
+	{% for feature in site.data.personal_projects %}
+		{% if feature.featured == true %}
+			{% include feature.html feature=feature %}
+		{% endif %}
+	{% endfor %}
+</div>
 
 {%comment%}
 ## PhD Dissertation

@@ -37,6 +37,10 @@ title: Home
 		I am currently working in the <a href="https://www.fung-group.org/"> Fung group</a> under the instruction of Assistant Professor <a href="https://scholar.google.com/citations?user=2QsddMIAAAAJ"> Victor Fung</a>, Georgia Tech School of Computational Science. My research is supported by the <i>President's Undergraduate Research Awards</i>, a scholarship granted to undergraduate research projects by Georgia Tech.
 	</div>
 	<div style="height: 1rem"></div>
+	<div>
+		My resume (in PDF format) can be viewed <a href="./CV.pdf"> here</a>.
+	</div>
+	<div style="height: 1rem"></div>
 </div>
 
 <hr class="l-middle home-hr">

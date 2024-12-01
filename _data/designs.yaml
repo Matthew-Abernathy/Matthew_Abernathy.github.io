@@ -1,3 +1,31 @@
+- title: "Natural Language to Protein Database Query"
+  date: "August 2024 - Now"
+  # venue: Apple Human Interface Guidelines
+  url: /slides/nl2prot.pdf
+  # venue-shorthand: Apple Human Interface Guidelines
+  year: "August 2024 - Now"
+  # recording: 
+  featured: true
+  feature-order: 1
+  course: "Deep Learning, Bioinformatics"
+  feature-title: Natural Language to Protein Database Query
+  feature-description: A deep learning architecture that enables natural lanaguage descriptions to query protein databases.
+  image: /images/featured/nl2prot.png
+
+- title: "Workout of the Day Prediction"
+  date: "August 2024 - Now"
+  # venue: Apple Human Interface Guidelines
+  url: https://datasciencegt.org/#/#projects
+  # venue-shorthand: Apple Human Interface Guidelines
+  year: "August 2024 - Now"
+  # recording: 
+  featured: true
+  feature-order: 1
+  course: "Machine Learning"
+  feature-title: Workout of the Day Prediction
+  feature-description: Predict the workout of the day for athletes based on historical exercise data.
+  image: /images/featured/wod.png
+
 - title: "GTZAN Audio Genre Classification"
   date: "Jan. 2024 - May 2024"
   # venue: Apple Human Interface Guidelines
@@ -8,7 +36,7 @@
   # recording: 
   featured: true
   feature-order: 1
-  course: "CS 4641: Machine Learning"
+  course: "Machine Learning, Audio Signal Processing"
   feature-title: GTZAN Audio Genre Classification
   feature-description: Design multiple competent Machine Learning pipelines to classify audio genres.
   image: /images/featured/mel_spectrogram.png
@@ -20,7 +48,7 @@
   year: "Jan. 2024 - May 2024"
   featured: true
   feature-order: 2
-  course: "CS 2340: Objects and Design"
+  course: "Object-Oriented Design, Software Engineering"
   feature-title: "GreenPlate: Diet Management App"
   feature-description: Implement an Android app that helps users track their diet and nutrition. Feature MVVM architecture, Design Patterns, Firebase, and Unit Testing.
   image: /images/featured/android_studio.png
@@ -32,7 +60,7 @@
   year: "Oct. 2023 - Nov. 2023"
   featured: true
   feature-order: 3
-  course: "MATH 3406: A Second Course in Linear Algebra"
+  course: "Linear Algebra, Signal Processing"
   feature-title: "Applications of SVD"
   feature-description: Investigated the applications of Singular Value Decomposition (SVD) in image compression and signal denoising.
   image: /images/featured/SVD.png
