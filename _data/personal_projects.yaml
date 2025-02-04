@@ -15,6 +15,10 @@
     - Utilized YOLO and fineuned OCR to extract data from various forms of scientific plots.<br>
     - Deploy with Flask backend and HTML/CSS frontend.<br>
   image: /images/featured/plot_visualizer.png
+  cv_description: |
+    Implement a pipeline to extract source data from various forms of scientific plots.<br>
+    - Utilized <b>YOLO</b> and fineuned <b>OCR</b> to extract data from various forms of scientific plots.<br>
+    - Deploy with <b>Flask</b> backend and <b>HTML/CSS frontend</b>.<br>
 
 - title: "Stock Tweet"
   date: "Feb. 2023"
@@ -34,3 +38,8 @@
     - Utilized GPT for generation of sample tweets.<br>
     - Deploy with Flask backend and Wix on Google Cloud.<br>
   image: /images/featured/stock_tweet.png
+  cv_description: |
+    A tool tailored for PR teams of companies to analyze impact of tweets on stock prices.<br>
+    - Trained a <b>word2vec</b> model for tweet analysis.<br>
+    - Utilized <b>GPT</b> for generation of sample tweets.<br>
+    - Deploy with Flask backend and Wix on <b>Google Cloud</b>.<br>

@@ -1,16 +1,23 @@
 - title: "Natural Language to Protein Database Query"
   date: "August 2024 - Now"
   # venue: Apple Human Interface Guidelines
-  url: /slides/nl2prot.pdf
+  url: https://nl2uniprot.readthedocs.io/en/latest/index.html
+  code: https://github.com/qzheng75/NL2UniProt
   # venue-shorthand: Apple Human Interface Guidelines
-  year: "August 2024 - Now"
+  year: "August 2024 - Janurary 2025"
   # recording: 
   featured: true
+  demo: http://nl2prot.org
+  pdf: /slides/nl2prot.pdf
   feature-order: 1
   course: "Deep Learning, Bioinformatics"
   feature-title: Natural Language to Protein Database Query
   feature-description: A deep learning architecture that enables natural lanaguage descriptions to query protein databases.
   image: /images/featured/nl2prot.png
+  cv_description: "Designed a multimodal tool for flexible queries for human protein sequences in UniProt database.<br>
+  - Leveraged <b>LLM Llama 3</b> to generate text queries as training data, a <b>CLIP model (BERT + ESM)</b> in contrastive learning of protein sequence and user query embeddings.<br>
+  - Developed a <b>Flask</b> application (Flask, HTML/CSS) deployed with <b>AWS Fargate, ECR, ECS</b>. Now live at nl2prot.org.<br>
+  - Obtained experience in multimodal learning, LLM training, Cloud Computing, PyTorch, and deep learning."
 
 - title: "Workout of the Day Prediction"
   date: "August 2024 - Now"
@@ -25,6 +32,9 @@
   feature-title: Workout of the Day Prediction
   feature-description: Predict the workout of the day for athletes based on historical exercise data.
   image: /images/featured/wod.png
+  cv_description: "Participate in the Workout Of the Day (WOD) prediction project group at Data Science @ GT.<br>
+  - Use <b>Python</b> to perform <b>data cleaning and feature engineering</b> pipelines for the downstream machine learning tasks.<br>
+  - Leverage modern optimization libraries to design an <b>automated hyperparameter search</b> pipeline for modeling."
 
 - title: "GTZAN Audio Genre Classification"
   date: "Jan. 2024 - May 2024"
@@ -40,6 +50,9 @@
   feature-title: GTZAN Audio Genre Classification
   feature-description: Design multiple competent Machine Learning pipelines to classify audio genres.
   image: /images/featured/mel_spectrogram.png
+  cv_description: "Developed a Machine Learning solution for audio classification in a group of 4.<br>
+  - Utilized Python to preprocess audio data by <b>audio signal processing</b> and feature extraction (e.g. Mel spectrogram, STFT, chroma features).<br>
+  - Finetune large vision models (<b>ResNet, ViT</b>) for genre classification with Mel spectrogram.<br>"
 
 - title: "GreenPlate: Diet Management App"
   date: "Jan. 2024 - May 2024"
@@ -52,6 +65,10 @@
   feature-title: "GreenPlate: Diet Management App"
   feature-description: Implement an Android app that helps users track their diet and nutrition. Feature MVVM architecture, Design Patterns, Firebase, and Unit Testing.
   image: /images/featured/android_studio.png
+  cv_description: "Developed a diet management app in a group of 4 using <b>Android Studio</b> and <b>Java</b>.<br>
+  - Designed a <b>user-friendly interface</b> for users to track their diet and nutrition.<br>
+  - Implemented <b>MVVM architecture</b>, <b>Design Patterns</b>, <b>Firebase</b> for backend, and <b>Unit Testing</b>.<br>
+  - Gained experience in Git CI/CD pipeline, Android Studio, Java, and software engineering."
 
 - title: "Applications of SVD"
   date: "Oct. 2023 - Nov. 2023"
@@ -64,6 +81,7 @@
   feature-title: "Applications of SVD"
   feature-description: Investigated the applications of Singular Value Decomposition (SVD) in image compression and signal denoising.
   image: /images/featured/SVD.png
+  cv_description: "Explored the applications of Singular Value Decomposition (SVD) in image compression and signal denoising."
 
 # - title: "Components: Charts"
 #   date: 2022
@@ -79,26 +97,26 @@
 #   feature-description: A chart helps you communicate data in a graphical, approachable way
 #   image: /images/featured/components.png
 
-- title: "IDEA Workshop Proceedings Cover (2017, 2018)"
-  date: "2017 — 2018"
-  venue: "ACM SIGKDD Workshop on Interactive Data Exploration and Analytics (IDEA)"
-  description: Designed workshop poster and conference proceedings cover
-  url: http://poloclub.gatech.edu/idea2018/
+# - title: "IDEA Workshop Proceedings Cover (2017, 2018)"
+#   date: "2017 — 2018"
+#   venue: "ACM SIGKDD Workshop on Interactive Data Exploration and Analytics (IDEA)"
+#   description: Designed workshop poster and conference proceedings cover
+#   url: http://poloclub.gatech.edu/idea2018/
 
-- title: Brad Myers Advisee Tree
-  date: 2017, 2022, 2023
-  venue: "ACM Conference on Human Factors in Computing Systems (CHI), Denver, USA"
-  description: "Designed and implemented an interactive visualization of Brad Myers's advisee tree shown during his CHI 2017 Lifetime Research Award talk; designed accompanying ribbon worn by attendees at the conference"
-  url: http://fredhohman.com/brad-myers-advisee-tree
+# - title: Brad Myers Advisee Tree
+#   date: 2017, 2022, 2023
+#   venue: "ACM Conference on Human Factors in Computing Systems (CHI), Denver, USA"
+#   description: "Designed and implemented an interactive visualization of Brad Myers's advisee tree shown during his CHI 2017 Lifetime Research Award talk; designed accompanying ribbon worn by attendees at the conference"
+#   url: http://fredhohman.com/brad-myers-advisee-tree
 
-- title: 3D Printed Cube Decomposition Trophy
-  date: "Aug. 2014"
-  venue: "University of Georgia Mathematics Department, Athens, USA"
-  description: Designed, modeled, and 3D printed cube decomposition trophy for annual UGA High School Math Tournament that was given to the top scoring teams and participants
-  url: /projects/cube-decomposition-trophy
+# - title: 3D Printed Cube Decomposition Trophy
+#   date: "Aug. 2014"
+#   venue: "University of Georgia Mathematics Department, Athens, USA"
+#   description: Designed, modeled, and 3D printed cube decomposition trophy for annual UGA High School Math Tournament that was given to the top scoring teams and participants
+#   url: /projects/cube-decomposition-trophy
 
-- title: 3D Printed UGA Keychain
-  date: "Aug. 2014"
-  venue: University of Georgia Lamar Dodd School of Art, Athens, USA
-  description: "Created 3D printed UGA keychain and presentation notes given at Experience UGA: a interdisciplinary event that exposes middle-school and high-school students to hands-on learning activities"
-  url: /projects/uga-keychain
+# - title: 3D Printed UGA Keychain
+#   date: "Aug. 2014"
+#   venue: University of Georgia Lamar Dodd School of Art, Athens, USA
+#   description: "Created 3D printed UGA keychain and presentation notes given at Experience UGA: a interdisciplinary event that exposes middle-school and high-school students to hands-on learning activities"
+#   url: /projects/uga-keychain

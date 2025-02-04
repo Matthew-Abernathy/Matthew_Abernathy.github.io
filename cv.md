@@ -96,6 +96,16 @@ During my Bachelor studies and internship, I have collaborated with researchers,
 {% include cv/certificate.html certificate=certificate %}
 {% endfor %}
 
+## Projects
+
+{% for design in site.data.designs %}
+{% include cv/design.html design=design %}
+{% endfor %}
+
+{% for design in site.data.personal_projects %}
+{% include cv/design.html design=design %}
+{% endfor %}
+
 {%comment%}
 ## Publications
 
