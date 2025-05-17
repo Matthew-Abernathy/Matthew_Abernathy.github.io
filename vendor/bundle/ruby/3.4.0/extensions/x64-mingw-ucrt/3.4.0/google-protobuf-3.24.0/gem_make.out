@@ -1,0 +1,480 @@
+current directory: C:/Users/zheng/OneDrive/Backup/Personal Website/qzheng75.github.io/vendor/bundle/ruby/3.4.0/gems/google-protobuf-3.24.0/ext/google/protobuf_c
+C:/Ruby34-x64/bin/ruby.exe extconf.rb
+creating Makefile
+
+current directory: C:/Users/zheng/OneDrive/Backup/Personal Website/qzheng75.github.io/vendor/bundle/ruby/3.4.0/gems/google-protobuf-3.24.0/ext/google/protobuf_c
+make DESTDIR\= sitearchdir\=./.gem.20250517-24636-6dcrdi sitelibdir\=./.gem.20250517-24636-6dcrdi clean
+
+current directory: C:/Users/zheng/OneDrive/Backup/Personal Website/qzheng75.github.io/vendor/bundle/ruby/3.4.0/gems/google-protobuf-3.24.0/ext/google/protobuf_c
+make DESTDIR\= sitearchdir\=./.gem.20250517-24636-6dcrdi sitelibdir\=./.gem.20250517-24636-6dcrdi
+generating protobuf_c-x64-mingw-ucrt.def
+compiling protobuf.c
+In file included from C:/Ruby34-x64/include/ruby-3.4.0/ruby/defines.h:74,
+                 from C:/Ruby34-x64/include/ruby-3.4.0/ruby/ruby.h:25,
+                 from C:/Ruby34-x64/include/ruby-3.4.0/ruby.h:38,
+                 from protobuf.h:36,
+                 from protobuf.c:31:
+C:/Ruby34-x64/msys64/ucrt64/include/stralign.h: In function 'ua_CharUpperW':
+C:/Ruby34-x64/include/ruby-3.4.0/ruby/backward/2/bool.h:31:15: error: 'true' undeclared (first use in this function)
+   31 | # define TRUE true
+      |               ^~~~
+In file included from C:/Ruby34-x64/msys64/ucrt64/include/windows.h:114,
+                 from C:/Ruby34-x64/msys64/ucrt64/include/winsock2.h:23,
+                 from C:/Ruby34-x64/include/ruby-3.4.0/ruby/win32.h:36,
+                 from C:/Ruby34-x64/include/ruby-3.4.0/ruby/internal/dosish.h:38,
+                 from C:/Ruby34-x64/include/ruby-3.4.0/ruby/defines.h:78:
+C:/Ruby34-x64/msys64/ucrt64/include/stralign.h:1:1: note: 'true' is defined in header '<stdbool.h>'; this is probably fixable by adding '#include <stdbool.h>'
+  +++ |+#include <stdbool.h>
+    1 | /**
+C:/Ruby34-x64/include/ruby-3.4.0/ruby/backward/2/bool.h:31:15: note: each undeclared identifier is reported only once for each function it appears in
+   31 | # define TRUE true
+      |               ^~~~
+C:/Ruby34-x64/msys64/ucrt64/include/stralign.h: In function 'ua_lstrcmpW':
+C:/Ruby34-x64/include/ruby-3.4.0/ruby/backward/2/bool.h:31:15: error: 'true' undeclared (first use in this function)
+   31 | # define TRUE true
+      |               ^~~~
+C:/Ruby34-x64/include/ruby-3.4.0/ruby/backward/2/bool.h:31:15: note: 'true' is defined in header '<stdbool.h>'; this is probably fixable by adding '#include <stdbool.h>'
+C:/Ruby34-x64/msys64/ucrt64/include/stralign.h: In function 'ua_lstrcmpiW':
+C:/Ruby34-x64/include/ruby-3.4.0/ruby/backward/2/bool.h:31:15: error: 'true' undeclared (first use in this function)
+   31 | # define TRUE true
+      |               ^~~~
+C:/Ruby34-x64/include/ruby-3.4.0/ruby/backward/2/bool.h:31:15: note: 'true' is defined in header '<stdbool.h>'; this is probably fixable by adding '#include <stdbool.h>'
+C:/Ruby34-x64/msys64/ucrt64/include/stralign.h: In function 'ua_lstrlenW':
+C:/Ruby34-x64/include/ruby-3.4.0/ruby/backward/2/bool.h:31:15: error: 'true' undeclared (first use in this function)
+   31 | # define TRUE true
+      |               ^~~~
+C:/Ruby34-x64/include/ruby-3.4.0/ruby/backward/2/bool.h:31:15: note: 'true' is defined in header '<stdbool.h>'; this is probably fixable by adding '#include <stdbool.h>'
+C:/Ruby34-x64/msys64/ucrt64/include/stralign.h: In function 'ua_wcschr':
+C:/Ruby34-x64/include/ruby-3.4.0/ruby/backward/2/bool.h:31:15: error: 'true' undeclared (first use in this function)
+   31 | # define TRUE true
+      |               ^~~~
+C:/Ruby34-x64/include/ruby-3.4.0/ruby/backward/2/bool.h:31:15: note: 'true' is defined in header '<stdbool.h>'; this is probably fixable by adding '#include <stdbool.h>'
+C:/Ruby34-x64/msys64/ucrt64/include/stralign.h: In function 'ua_wcsrchr':
+C:/Ruby34-x64/include/ruby-3.4.0/ruby/backward/2/bool.h:31:15: error: 'true' undeclared (first use in this function)
+   31 | # define TRUE true
+      |               ^~~~
+C:/Ruby34-x64/include/ruby-3.4.0/ruby/backward/2/bool.h:31:15: note: 'true' is defined in header '<stdbool.h>'; this is probably fixable by adding '#include <stdbool.h>'
+C:/Ruby34-x64/msys64/ucrt64/include/stralign.h: In function 'ua_wcscpy':
+C:/Ruby34-x64/include/ruby-3.4.0/ruby/backward/2/bool.h:31:15: error: 'true' undeclared (first use in this function)
+   31 | # define TRUE true
+      |               ^~~~
+C:/Ruby34-x64/include/ruby-3.4.0/ruby/backward/2/bool.h:31:15: note: 'true' is defined in header '<stdbool.h>'; this is probably fixable by adding '#include <stdbool.h>'
+C:/Ruby34-x64/msys64/ucrt64/include/stralign.h: In function 'ua_wcslen':
+C:/Ruby34-x64/include/ruby-3.4.0/ruby/backward/2/bool.h:31:15: error: 'true' undeclared (first use in this function)
+   31 | # define TRUE true
+      |               ^~~~
+C:/Ruby34-x64/include/ruby-3.4.0/ruby/backward/2/bool.h:31:15: note: 'true' is defined in header '<stdbool.h>'; this is probably fixable by adding '#include <stdbool.h>'
+C:/Ruby34-x64/msys64/ucrt64/include/stralign.h: In function 'ua_wcsicmp':
+C:/Ruby34-x64/include/ruby-3.4.0/ruby/backward/2/bool.h:31:15: error: 'true' undeclared (first use in this function)
+   31 | # define TRUE true
+      |               ^~~~
+C:/Ruby34-x64/include/ruby-3.4.0/ruby/backward/2/bool.h:31:15: note: 'true' is defined in header '<stdbool.h>'; this is probably fixable by adding '#include <stdbool.h>'
+In file included from C:/Ruby34-x64/include/ruby-3.4.0/ruby/internal/arithmetic/long.h:42,
+                 from C:/Ruby34-x64/include/ruby-3.4.0/ruby/internal/arithmetic/int.h:26,
+                 from C:/Ruby34-x64/include/ruby-3.4.0/ruby/internal/arithmetic/char.h:23,
+                 from C:/Ruby34-x64/include/ruby-3.4.0/ruby/internal/arithmetic.h:24,
+                 from C:/Ruby34-x64/include/ruby-3.4.0/ruby/ruby.h:28:
+C:/Ruby34-x64/include/ruby-3.4.0/ruby/internal/special_consts.h: At top level:
+C:/Ruby34-x64/include/ruby-3.4.0/ruby/internal/special_consts.h:137:15: error: unknown type name 'bool'
+  137 | static inline bool
+      |               ^~~~
+C:/Ruby34-x64/include/ruby-3.4.0/ruby/internal/special_consts.h:31:1: note: 'bool' is defined in header '<stdbool.h>'; this is probably fixable by adding '#include <stdbool.h>'
+   30 | #include "ruby/internal/attr/enum_extensibility.h"
+  +++ |+#include <stdbool.h>
+   31 | #include "ruby/internal/stdbool.h"
+C:/Ruby34-x64/include/ruby-3.4.0/ruby/internal/special_consts.h:172:15: error: unknown type name 'bool'
+  172 | static inline bool
+      |               ^~~~
+C:/Ruby34-x64/include/ruby-3.4.0/ruby/internal/special_consts.h:172:15: note: 'bool' is defined in header '<stdbool.h>'; this is probably fixable by adding '#include <stdbool.h>'
+C:/Ruby34-x64/include/ruby-3.4.0/ruby/internal/special_consts.h:188:15: error: unknown type name 'bool'
+  188 | static inline bool
+      |               ^~~~
+C:/Ruby34-x64/include/ruby-3.4.0/ruby/internal/special_consts.h:188:15: note: 'bool' is defined in header '<stdbool.h>'; this is probably fixable by adding '#include <stdbool.h>'
+C:/Ruby34-x64/include/ruby-3.4.0/ruby/internal/special_consts.h:205:15: error: unknown type name 'bool'
+  205 | static inline bool
+      |               ^~~~
+C:/Ruby34-x64/include/ruby-3.4.0/ruby/internal/special_consts.h:205:15: note: 'bool' is defined in header '<stdbool.h>'; this is probably fixable by adding '#include <stdbool.h>'
+C:/Ruby34-x64/include/ruby-3.4.0/ruby/internal/special_consts.h:246:15: error: unknown type name 'bool'
+  246 | static inline bool
+      |               ^~~~
+C:/Ruby34-x64/include/ruby-3.4.0/ruby/internal/special_consts.h:246:15: note: 'bool' is defined in header '<stdbool.h>'; this is probably fixable by adding '#include <stdbool.h>'
+C:/Ruby34-x64/include/ruby-3.4.0/ruby/internal/special_consts.h:266:15: error: unknown type name 'bool'
+  266 | static inline bool
+      |               ^~~~
+C:/Ruby34-x64/include/ruby-3.4.0/ruby/internal/special_consts.h:266:15: note: 'bool' is defined in header '<stdbool.h>'; this is probably fixable by adding '#include <stdbool.h>'
+C:/Ruby34-x64/include/ruby-3.4.0/ruby/internal/special_consts.h:287:15: error: unknown type name 'bool'
+  287 | static inline bool
+      |               ^~~~
+C:/Ruby34-x64/include/ruby-3.4.0/ruby/internal/special_consts.h:287:15: note: 'bool' is defined in header '<stdbool.h>'; this is probably fixable by adding '#include <stdbool.h>'
+C:/Ruby34-x64/include/ruby-3.4.0/ruby/internal/special_consts.h:310:15: error: unknown type name 'bool'
+  310 | static inline bool
+      |               ^~~~
+C:/Ruby34-x64/include/ruby-3.4.0/ruby/internal/special_consts.h:310:15: note: 'bool' is defined in header '<stdbool.h>'; this is probably fixable by adding '#include <stdbool.h>'
+C:/Ruby34-x64/include/ruby-3.4.0/ruby/internal/special_consts.h:326:15: error: unknown type name 'bool'
+  326 | static inline bool
+      |               ^~~~
+C:/Ruby34-x64/include/ruby-3.4.0/ruby/internal/special_consts.h:326:15: note: 'bool' is defined in header '<stdbool.h>'; this is probably fixable by adding '#include <stdbool.h>'
+C:/Ruby34-x64/include/ruby-3.4.0/ruby/internal/arithmetic/long.h:215:15: error: unknown type name 'bool'
+  215 | static inline bool
+      |               ^~~~
+C:/Ruby34-x64/include/ruby-3.4.0/ruby/internal/arithmetic/long.h:43:1: note: 'bool' is defined in header '<stdbool.h>'; this is probably fixable by adding '#include <stdbool.h>'
+   42 | #include "ruby/internal/special_consts.h"      /* FIXNUM_FLAG */
+  +++ |+#include <stdbool.h>
+   43 | #include "ruby/internal/value.h"
+In file included from C:/Ruby34-x64/include/ruby-3.4.0/ruby/internal/fl_type.h:38,
+                 from C:/Ruby34-x64/include/ruby-3.4.0/ruby/internal/core/rstring.h:30,
+                 from C:/Ruby34-x64/include/ruby-3.4.0/ruby/internal/arithmetic/char.h:29:
+C:/Ruby34-x64/include/ruby-3.4.0/ruby/internal/value_type.h:203:15: error: unknown type name 'bool'
+  203 | static inline bool
+      |               ^~~~
+C:/Ruby34-x64/include/ruby-3.4.0/ruby/internal/value_type.h:34:1: note: 'bool' is defined in header '<stdbool.h>'; this is probably fixable by adding '#include <stdbool.h>'
+   33 | #include "ruby/internal/error.h"
+  +++ |+#include <stdbool.h>
+   34 | #include "ruby/internal/has/builtin.h"
+C:/Ruby34-x64/include/ruby-3.4.0/ruby/internal/value_type.h: In function 'rb_integer_type_p':
+C:/Ruby34-x64/include/ruby-3.4.0/ruby/internal/value_type.h:207:16: error: 'true' undeclared (first use in this function)
+  207 |         return true;
+      |                ^~~~
+C:/Ruby34-x64/include/ruby-3.4.0/ruby/internal/value_type.h:207:16: note: 'true' is defined in header '<stdbool.h>'; this is probably fixable by adding '#include <stdbool.h>'
+C:/Ruby34-x64/include/ruby-3.4.0/ruby/internal/value_type.h:210:16: error: 'false' undeclared (first use in this function)
+  210 |         return false;
+      |                ^~~~~
+C:/Ruby34-x64/include/ruby-3.4.0/ruby/internal/value_type.h:210:16: note: 'false' is defined in header '<stdbool.h>'; this is probably fixable by adding '#include <stdbool.h>'
+C:/Ruby34-x64/include/ruby-3.4.0/ruby/internal/value_type.h: At top level:
+C:/Ruby34-x64/include/ruby-3.4.0/ruby/internal/value_type.h:263:15: error: unknown type name 'bool'
+  263 | static inline bool
+      |               ^~~~
+C:/Ruby34-x64/include/ruby-3.4.0/ruby/internal/value_type.h:263:15: note: 'bool' is defined in header '<stdbool.h>'; this is probably fixable by adding '#include <stdbool.h>'
+C:/Ruby34-x64/include/ruby-3.4.0/ruby/internal/value_type.h: In function 'RB_FLOAT_TYPE_P':
+C:/Ruby34-x64/include/ruby-3.4.0/ruby/internal/value_type.h:267:16: error: 'true' undeclared (first use in this function)
+  267 |         return true;
+      |                ^~~~
+C:/Ruby34-x64/include/ruby-3.4.0/ruby/internal/value_type.h:267:16: note: 'true' is defined in header '<stdbool.h>'; this is probably fixable by adding '#include <stdbool.h>'
+C:/Ruby34-x64/include/ruby-3.4.0/ruby/internal/value_type.h:270:16: error: 'false' undeclared (first use in this function)
+  270 |         return false;
+      |                ^~~~~
+C:/Ruby34-x64/include/ruby-3.4.0/ruby/internal/value_type.h:270:16: note: 'false' is defined in header '<stdbool.h>'; this is probably fixable by adding '#include <stdbool.h>'
+C:/Ruby34-x64/include/ruby-3.4.0/ruby/internal/value_type.h: At top level:
+C:/Ruby34-x64/include/ruby-3.4.0/ruby/internal/value_type.h:286:15: error: unknown type name 'bool'
+  286 | static inline bool
+      |               ^~~~
+C:/Ruby34-x64/include/ruby-3.4.0/ruby/internal/value_type.h:286:15: note: 'bool' is defined in header '<stdbool.h>'; this is probably fixable by adding '#include <stdbool.h>'
+C:/Ruby34-x64/include/ruby-3.4.0/ruby/internal/value_type.h: In function 'RB_DYNAMIC_SYM_P':
+C:/Ruby34-x64/include/ruby-3.4.0/ruby/internal/value_type.h:290:16: error: 'false' undeclared (first use in this function)
+  290 |         return false;
+      |                ^~~~~
+C:/Ruby34-x64/include/ruby-3.4.0/ruby/internal/value_type.h:290:16: note: 'false' is defined in header '<stdbool.h>'; this is probably fixable by adding '#include <stdbool.h>'
+C:/Ruby34-x64/include/ruby-3.4.0/ruby/internal/value_type.h: At top level:
+C:/Ruby34-x64/include/ruby-3.4.0/ruby/internal/value_type.h:306:15: error: unknown type name 'bool'
+  306 | static inline bool
+      |               ^~~~
+C:/Ruby34-x64/include/ruby-3.4.0/ruby/internal/value_type.h:306:15: note: 'bool' is defined in header '<stdbool.h>'; this is probably fixable by adding '#include <stdbool.h>'
+C:/Ruby34-x64/include/ruby-3.4.0/ruby/internal/value_type.h:325:8: error: unknown type name 'bool'
+  325 | static bool
+      |        ^~~~
+C:/Ruby34-x64/include/ruby-3.4.0/ruby/internal/value_type.h:325:8: note: 'bool' is defined in header '<stdbool.h>'; this is probably fixable by adding '#include <stdbool.h>'
+C:/Ruby34-x64/include/ruby-3.4.0/ruby/internal/value_type.h: In function 'rbimpl_RB_TYPE_P_fastpath':
+C:/Ruby34-x64/include/ruby-3.4.0/ruby/internal/value_type.h:350:16: error: 'false' undeclared (first use in this function)
+  350 |         return false;
+      |                ^~~~~
+C:/Ruby34-x64/include/ruby-3.4.0/ruby/internal/value_type.h:350:16: note: 'false' is defined in header '<stdbool.h>'; this is probably fixable by adding '#include <stdbool.h>'
+C:/Ruby34-x64/include/ruby-3.4.0/ruby/internal/value_type.h:353:16: error: 'true' undeclared (first use in this function)
+  353 |         return true;
+      |                ^~~~
+C:/Ruby34-x64/include/ruby-3.4.0/ruby/internal/value_type.h:353:16: note: 'true' is defined in header '<stdbool.h>'; this is probably fixable by adding '#include <stdbool.h>'
+C:/Ruby34-x64/include/ruby-3.4.0/ruby/internal/value_type.h: At top level:
+C:/Ruby34-x64/include/ruby-3.4.0/ruby/internal/value_type.h:375:15: error: unknown type name 'bool'
+  375 | static inline bool
+      |               ^~~~
+C:/Ruby34-x64/include/ruby-3.4.0/ruby/internal/value_type.h:375:15: note: 'bool' is defined in header '<stdbool.h>'; this is probably fixable by adding '#include <stdbool.h>'
+C:/Ruby34-x64/include/ruby-3.4.0/ruby/internal/value_type.h:419:15: error: unknown type name 'bool'
+  419 | static inline bool rbimpl_rtypeddata_p(VALUE obj);
+      |               ^~~~
+C:/Ruby34-x64/include/ruby-3.4.0/ruby/internal/value_type.h:419:15: note: 'bool' is defined in header '<stdbool.h>'; this is probably fixable by adding '#include <stdbool.h>'
+C:/Ruby34-x64/include/ruby-3.4.0/ruby/internal/fl_type.h:443:8: error: unknown type name 'bool'
+  443 | static bool
+      |        ^~~~
+C:/Ruby34-x64/include/ruby-3.4.0/ruby/internal/fl_type.h:41:1: note: 'bool' is defined in header '<stdbool.h>'; this is probably fixable by adding '#include <stdbool.h>'
+   40 | #include "ruby/defines.h"
+  +++ |+#include <stdbool.h>
+   41 | 
+C:/Ruby34-x64/include/ruby-3.4.0/ruby/internal/fl_type.h: In function 'RB_FL_ABLE':
+C:/Ruby34-x64/include/ruby-3.4.0/ruby/internal/fl_type.h:447:16: error: 'false' undeclared (first use in this function)
+  447 |         return false;
+      |                ^~~~~
+C:/Ruby34-x64/include/ruby-3.4.0/ruby/internal/fl_type.h:447:16: note: 'false' is defined in header '<stdbool.h>'; this is probably fixable by adding '#include <stdbool.h>'
+C:/Ruby34-x64/include/ruby-3.4.0/ruby/internal/fl_type.h:453:16: error: 'true' undeclared (first use in this function)
+  453 |         return true;
+      |                ^~~~
+C:/Ruby34-x64/include/ruby-3.4.0/ruby/internal/fl_type.h:453:16: note: 'true' is defined in header '<stdbool.h>'; this is probably fixable by adding '#include <stdbool.h>'
+C:/Ruby34-x64/include/ruby-3.4.0/ruby/internal/fl_type.h: At top level:
+C:/Ruby34-x64/include/ruby-3.4.0/ruby/internal/fl_type.h:517:15: error: unknown type name 'bool'
+  517 | static inline bool
+      |               ^~~~
+C:/Ruby34-x64/include/ruby-3.4.0/ruby/internal/fl_type.h:517:15: note: 'bool' is defined in header '<stdbool.h>'; this is probably fixable by adding '#include <stdbool.h>'
+C:/Ruby34-x64/include/ruby-3.4.0/ruby/internal/fl_type.h:533:15: error: unknown type name 'bool'
+  533 | static inline bool
+      |               ^~~~
+C:/Ruby34-x64/include/ruby-3.4.0/ruby/internal/fl_type.h:533:15: note: 'bool' is defined in header '<stdbool.h>'; this is probably fixable by adding '#include <stdbool.h>'
+C:/Ruby34-x64/include/ruby-3.4.0/ruby/internal/fl_type.h:551:15: error: unknown type name 'bool'
+  551 | static inline bool
+      |               ^~~~
+C:/Ruby34-x64/include/ruby-3.4.0/ruby/internal/fl_type.h:551:15: note: 'bool' is defined in header '<stdbool.h>'; this is probably fixable by adding '#include <stdbool.h>'
+C:/Ruby34-x64/include/ruby-3.4.0/ruby/internal/fl_type.h:567:15: error: unknown type name 'bool'
+  567 | static inline bool
+      |               ^~~~
+C:/Ruby34-x64/include/ruby-3.4.0/ruby/internal/fl_type.h:567:15: note: 'bool' is defined in header '<stdbool.h>'; this is probably fixable by adding '#include <stdbool.h>'
+C:/Ruby34-x64/include/ruby-3.4.0/ruby/internal/fl_type.h:755:15: error: unknown type name 'bool'
+  755 | static inline bool
+      |               ^~~~
+C:/Ruby34-x64/include/ruby-3.4.0/ruby/internal/fl_type.h:755:15: note: 'bool' is defined in header '<stdbool.h>'; this is probably fixable by adding '#include <stdbool.h>'
+C:/Ruby34-x64/include/ruby-3.4.0/ruby/internal/fl_type.h: In function 'RB_OBJ_TAINTABLE':
+C:/Ruby34-x64/include/ruby-3.4.0/ruby/internal/fl_type.h:759:12: error: 'false' undeclared (first use in this function)
+  759 |     return false;
+      |            ^~~~~
+C:/Ruby34-x64/include/ruby-3.4.0/ruby/internal/fl_type.h:759:12: note: 'false' is defined in header '<stdbool.h>'; this is probably fixable by adding '#include <stdbool.h>'
+C:/Ruby34-x64/include/ruby-3.4.0/ruby/internal/fl_type.h: In function 'RB_OBJ_TAINTED_RAW':
+C:/Ruby34-x64/include/ruby-3.4.0/ruby/internal/fl_type.h:777:12: error: 'false' undeclared (first use in this function)
+  777 |     return false;
+      |            ^~~~~
+C:/Ruby34-x64/include/ruby-3.4.0/ruby/internal/fl_type.h:777:12: note: 'false' is defined in header '<stdbool.h>'; this is probably fixable by adding '#include <stdbool.h>'
+C:/Ruby34-x64/include/ruby-3.4.0/ruby/internal/fl_type.h: At top level:
+C:/Ruby34-x64/include/ruby-3.4.0/ruby/internal/fl_type.h:791:15: error: unknown type name 'bool'
+  791 | static inline bool
+      |               ^~~~
+C:/Ruby34-x64/include/ruby-3.4.0/ruby/internal/fl_type.h:791:15: note: 'bool' is defined in header '<stdbool.h>'; this is probably fixable by adding '#include <stdbool.h>'
+C:/Ruby34-x64/include/ruby-3.4.0/ruby/internal/fl_type.h: In function 'RB_OBJ_TAINTED':
+C:/Ruby34-x64/include/ruby-3.4.0/ruby/internal/fl_type.h:795:12: error: 'false' undeclared (first use in this function)
+  795 |     return false;
+      |            ^~~~~
+C:/Ruby34-x64/include/ruby-3.4.0/ruby/internal/fl_type.h:795:12: note: 'false' is defined in header '<stdbool.h>'; this is probably fixable by adding '#include <stdbool.h>'
+C:/Ruby34-x64/include/ruby-3.4.0/ruby/internal/fl_type.h: At top level:
+C:/Ruby34-x64/include/ruby-3.4.0/ruby/internal/fl_type.h:897:15: error: unknown type name 'bool'
+  897 | static inline bool
+      |               ^~~~
+C:/Ruby34-x64/include/ruby-3.4.0/ruby/internal/fl_type.h:897:15: note: 'bool' is defined in header '<stdbool.h>'; this is probably fixable by adding '#include <stdbool.h>'
+C:/Ruby34-x64/include/ruby-3.4.0/ruby/internal/fl_type.h: In function 'RB_OBJ_FROZEN':
+C:/Ruby34-x64/include/ruby-3.4.0/ruby/internal/fl_type.h:901:16: error: 'true' undeclared (first use in this function)
+  901 |         return true;
+      |                ^~~~
+C:/Ruby34-x64/include/ruby-3.4.0/ruby/internal/fl_type.h:901:16: note: 'true' is defined in header '<stdbool.h>'; this is probably fixable by adding '#include <stdbool.h>'
+In file included from C:/Ruby34-x64/include/ruby-3.4.0/ruby/internal/core/rarray.h:32,
+                 from C:/Ruby34-x64/include/ruby-3.4.0/ruby/internal/core.h:23,
+                 from C:/Ruby34-x64/include/ruby-3.4.0/ruby/ruby.h:29:
+C:/Ruby34-x64/include/ruby-3.4.0/ruby/internal/gc.h: At top level:
+C:/Ruby34-x64/include/ruby-3.4.0/ruby/internal/gc.h:705:15: error: unknown type name 'bool'
+  705 | static inline bool
+      |               ^~~~
+C:/Ruby34-x64/include/ruby-3.4.0/ruby/internal/gc.h:27:1: note: 'bool' is defined in header '<stdbool.h>'; this is probably fixable by adding '#include <stdbool.h>'
+   26 | # include <stddef.h>                       /* size_t */
+  +++ |+#include <stdbool.h>
+   27 | #endif
+C:/Ruby34-x64/include/ruby-3.4.0/ruby/internal/gc.h:725:15: error: unknown type name 'bool'
+  725 | static inline bool
+      |               ^~~~
+C:/Ruby34-x64/include/ruby-3.4.0/ruby/internal/gc.h:725:15: note: 'bool' is defined in header '<stdbool.h>'; this is probably fixable by adding '#include <stdbool.h>'
+C:/Ruby34-x64/include/ruby-3.4.0/ruby/internal/gc.h: In function 'RB_OBJ_PROMOTED':
+C:/Ruby34-x64/include/ruby-3.4.0/ruby/internal/gc.h:729:16: error: 'false' undeclared (first use in this function)
+  729 |         return false;
+      |                ^~~~~
+C:/Ruby34-x64/include/ruby-3.4.0/ruby/internal/gc.h:729:16: note: 'false' is defined in header '<stdbool.h>'; this is probably fixable by adding '#include <stdbool.h>'
+In file included from C:/Ruby34-x64/include/ruby-3.4.0/ruby/internal/core.h:25:
+C:/Ruby34-x64/include/ruby-3.4.0/ruby/internal/core/rbignum.h: At top level:
+C:/Ruby34-x64/include/ruby-3.4.0/ruby/internal/core/rbignum.h:60:15: error: unknown type name 'bool'
+   60 | static inline bool
+      |               ^~~~
+C:/Ruby34-x64/include/ruby-3.4.0/ruby/internal/core/rbignum.h:1:1: note: 'bool' is defined in header '<stdbool.h>'; this is probably fixable by adding '#include <stdbool.h>'
+  +++ |+#include <stdbool.h>
+    1 | #ifndef RBIMPL_RBIGNUM_H                             /*-*-C++-*-vi:se ft=cpp:*/
+C:/Ruby34-x64/include/ruby-3.4.0/ruby/internal/core/rbignum.h:73:15: error: unknown type name 'bool'
+   73 | static inline bool
+      |               ^~~~
+C:/Ruby34-x64/include/ruby-3.4.0/ruby/internal/core/rbignum.h:73:15: note: 'bool' is defined in header '<stdbool.h>'; this is probably fixable by adding '#include <stdbool.h>'
+In file included from C:/Ruby34-x64/include/ruby-3.4.0/ruby/internal/core.h:34:
+C:/Ruby34-x64/include/ruby-3.4.0/ruby/internal/core/rtypeddata.h:518:15: error: unknown type name 'bool'
+  518 | static inline bool
+      |               ^~~~
+C:/Ruby34-x64/include/ruby-3.4.0/ruby/internal/core/rtypeddata.h:27:1: note: 'bool' is defined in header '<stdbool.h>'; this is probably fixable by adding '#include <stdbool.h>'
+   26 | # include <stddef.h>
+  +++ |+#include <stdbool.h>
+   27 | #endif
+C:/Ruby34-x64/include/ruby-3.4.0/ruby/internal/core/rtypeddata.h:561:15: error: unknown type name 'bool'
+  561 | static inline bool
+      |               ^~~~
+C:/Ruby34-x64/include/ruby-3.4.0/ruby/internal/core/rtypeddata.h:561:15: note: 'bool' is defined in header '<stdbool.h>'; this is probably fixable by adding '#include <stdbool.h>'
+C:/Ruby34-x64/include/ruby-3.4.0/ruby/internal/core/rtypeddata.h:578:15: error: unknown type name 'bool'
+  578 | static inline bool
+      |               ^~~~
+C:/Ruby34-x64/include/ruby-3.4.0/ruby/internal/core/rtypeddata.h:578:15: note: 'bool' is defined in header '<stdbool.h>'; this is probably fixable by adding '#include <stdbool.h>'
+In file included from C:/Ruby34-x64/include/ruby-3.4.0/ruby/ruby.h:42:
+C:/Ruby34-x64/include/ruby-3.4.0/ruby/internal/memory.h:420:5: error: unknown type name 'bool'
+  420 |     bool left;                  /**< Whether overflow happened or not. */
+      |     ^~~~
+C:/Ruby34-x64/include/ruby-3.4.0/ruby/internal/memory.h:65:1: note: 'bool' is defined in header '<stdbool.h>'; this is probably fixable by adding '#include <stdbool.h>'
+   64 | #include "ruby/internal/stdckdint.h"
+  +++ |+#include <stdbool.h>
+   65 | #include "ruby/internal/xmalloc.h"
+C:/Ruby34-x64/include/ruby-3.4.0/ruby/internal/memory.h: In function 'rbimpl_size_mul_overflow':
+C:/Ruby34-x64/include/ruby-3.4.0/ruby/internal/memory.h:574:49: error: 'false' undeclared (first use in this function)
+  574 |     struct rbimpl_size_mul_overflow_tag ret = { false,  0, };
+      |                                                 ^~~~~
+C:/Ruby34-x64/include/ruby-3.4.0/ruby/internal/memory.h:574:49: note: 'false' is defined in header '<stdbool.h>'; this is probably fixable by adding '#include <stdbool.h>'
+In file included from C:/Ruby34-x64/include/ruby-3.4.0/ruby/ruby.h:46:
+C:/Ruby34-x64/include/ruby-3.4.0/ruby/internal/scan_args.h: At top level:
+C:/Ruby34-x64/include/ruby-3.4.0/ruby/internal/scan_args.h:252:15: error: unknown type name 'bool'
+  252 | static inline bool
+      |               ^~~~
+C:/Ruby34-x64/include/ruby-3.4.0/ruby/internal/scan_args.h:39:1: note: 'bool' is defined in header '<stdbool.h>'; this is probably fixable by adding '#include <stdbool.h>'
+   38 | #include "ruby/internal/intern/proc.h"  /* rb_block_proc */
+  +++ |+#include <stdbool.h>
+   39 | #include "ruby/internal/iterator.h"     /* rb_block_given_p / rb_keyword_given_p */
+C:/Ruby34-x64/include/ruby-3.4.0/ruby/internal/scan_args.h: In function 'rb_scan_args_keyword_p':
+C:/Ruby34-x64/include/ruby-3.4.0/ruby/internal/scan_args.h:259:16: error: 'true' undeclared (first use in this function)
+  259 |         return true;
+      |                ^~~~
+C:/Ruby34-x64/include/ruby-3.4.0/ruby/internal/scan_args.h:259:16: note: 'true' is defined in header '<stdbool.h>'; this is probably fixable by adding '#include <stdbool.h>'
+C:/Ruby34-x64/include/ruby-3.4.0/ruby/internal/scan_args.h:263:16: error: 'false' undeclared (first use in this function)
+  263 |         return false;
+      |                ^~~~~
+C:/Ruby34-x64/include/ruby-3.4.0/ruby/internal/scan_args.h:263:16: note: 'false' is defined in header '<stdbool.h>'; this is probably fixable by adding '#include <stdbool.h>'
+C:/Ruby34-x64/include/ruby-3.4.0/ruby/internal/scan_args.h: At top level:
+C:/Ruby34-x64/include/ruby-3.4.0/ruby/internal/scan_args.h:268:8: error: unknown type name 'bool'
+  268 | static bool
+      |        ^~~~
+C:/Ruby34-x64/include/ruby-3.4.0/ruby/internal/scan_args.h:268:8: note: 'bool' is defined in header '<stdbool.h>'; this is probably fixable by adding '#include <stdbool.h>'
+C:/Ruby34-x64/include/ruby-3.4.0/ruby/internal/scan_args.h:282:8: error: unknown type name 'bool'
+  282 | static bool
+      |        ^~~~
+C:/Ruby34-x64/include/ruby-3.4.0/ruby/internal/scan_args.h:282:8: note: 'bool' is defined in header '<stdbool.h>'; this is probably fixable by adding '#include <stdbool.h>'
+C:/Ruby34-x64/include/ruby-3.4.0/ruby/internal/scan_args.h:303:8: error: unknown type name 'bool'
+  303 | static bool
+      |        ^~~~
+C:/Ruby34-x64/include/ruby-3.4.0/ruby/internal/scan_args.h:303:8: note: 'bool' is defined in header '<stdbool.h>'; this is probably fixable by adding '#include <stdbool.h>'
+C:/Ruby34-x64/include/ruby-3.4.0/ruby/internal/scan_args.h:334:8: error: unknown type name 'bool'
+  334 | static bool
+      |        ^~~~
+C:/Ruby34-x64/include/ruby-3.4.0/ruby/internal/scan_args.h:334:8: note: 'bool' is defined in header '<stdbool.h>'; this is probably fixable by adding '#include <stdbool.h>'
+C:/Ruby34-x64/include/ruby-3.4.0/ruby/internal/scan_args.h:349:8: error: unknown type name 'bool'
+  349 | static bool
+      |        ^~~~
+C:/Ruby34-x64/include/ruby-3.4.0/ruby/internal/scan_args.h:349:8: note: 'bool' is defined in header '<stdbool.h>'; this is probably fixable by adding '#include <stdbool.h>'
+C:/Ruby34-x64/include/ruby-3.4.0/ruby/internal/scan_args.h:390:18: error: unknown type name 'bool'
+  390 |                  bool f_var, bool f_hash, bool f_block,
+      |                  ^~~~
+C:/Ruby34-x64/include/ruby-3.4.0/ruby/internal/scan_args.h:390:18: note: 'bool' is defined in header '<stdbool.h>'; this is probably fixable by adding '#include <stdbool.h>'
+C:/Ruby34-x64/include/ruby-3.4.0/ruby/internal/scan_args.h:390:30: error: unknown type name 'bool'
+  390 |                  bool f_var, bool f_hash, bool f_block,
+      |                              ^~~~
+C:/Ruby34-x64/include/ruby-3.4.0/ruby/internal/scan_args.h:390:30: note: 'bool' is defined in header '<stdbool.h>'; this is probably fixable by adding '#include <stdbool.h>'
+C:/Ruby34-x64/include/ruby-3.4.0/ruby/internal/scan_args.h:390:43: error: unknown type name 'bool'
+  390 |                  bool f_var, bool f_hash, bool f_block,
+      |                                           ^~~~
+C:/Ruby34-x64/include/ruby-3.4.0/ruby/internal/scan_args.h:390:43: note: 'bool' is defined in header '<stdbool.h>'; this is probably fixable by adding '#include <stdbool.h>'
+In file included from C:/Ruby34-x64/include/ruby-3.4.0/ruby/intern.h:41,
+                 from C:/Ruby34-x64/include/ruby-3.4.0/ruby/ruby.h:194:
+C:/Ruby34-x64/include/ruby-3.4.0/ruby/internal/intern/load.h:234:25: error: unknown type name 'bool'
+  234 | void rb_ext_ractor_safe(bool flag);
+      |                         ^~~~
+C:/Ruby34-x64/include/ruby-3.4.0/ruby/internal/intern/load.h:1:1: note: 'bool' is defined in header '<stdbool.h>'; this is probably fixable by adding '#include <stdbool.h>'
+  +++ |+#include <stdbool.h>
+    1 | #ifndef  RBIMPL_INTERN_LOAD_H                        /*-*-C++-*-vi:se ft=cpp:*/
+In file included from C:/Ruby34-x64/include/ruby-3.4.0/ruby/encoding.h:21,
+                 from protobuf.h:49:
+C:/Ruby34-x64/include/ruby-3.4.0/ruby/internal/encoding/coderange.h:79:15: error: unknown type name 'bool'
+   79 | static inline bool
+      |               ^~~~
+C:/Ruby34-x64/include/ruby-3.4.0/ruby/internal/encoding/coderange.h:1:1: note: 'bool' is defined in header '<stdbool.h>'; this is probably fixable by adding '#include <stdbool.h>'
+  +++ |+#include <stdbool.h>
+    1 | #ifndef RUBY_INTERNAL_ENCODING_CODERANGE_H           /*-*-C++-*-vi:se ft=cpp:*/
+C:/Ruby34-x64/include/ruby-3.4.0/ruby/internal/encoding/coderange.h:113:15: error: unknown type name 'bool'
+  113 | static inline bool
+      |               ^~~~
+C:/Ruby34-x64/include/ruby-3.4.0/ruby/internal/encoding/coderange.h:113:15: note: 'bool' is defined in header '<stdbool.h>'; this is probably fixable by adding '#include <stdbool.h>'
+In file included from C:/Ruby34-x64/include/ruby-3.4.0/ruby/internal/encoding/ctype.h:27,
+                 from C:/Ruby34-x64/include/ruby-3.4.0/ruby/encoding.h:22:
+C:/Ruby34-x64/include/ruby-3.4.0/ruby/internal/encoding/encoding.h:767:15: error: unknown type name 'bool'
+  767 | static inline bool
+      |               ^~~~
+C:/Ruby34-x64/include/ruby-3.4.0/ruby/internal/encoding/encoding.h:25:1: note: 'bool' is defined in header '<stdbool.h>'; this is probably fixable by adding '#include <stdbool.h>'
+   24 | #include "ruby/oniguruma.h"
+  +++ |+#include <stdbool.h>
+   25 | #include "ruby/internal/attr/const.h"
+C:/Ruby34-x64/include/ruby-3.4.0/ruby/internal/encoding/encoding.h: In function 'rb_enc_asciicompat':
+C:/Ruby34-x64/include/ruby-3.4.0/ruby/internal/encoding/encoding.h:771:16: error: 'false' undeclared (first use in this function)
+  771 |         return false;
+      |                ^~~~~
+C:/Ruby34-x64/include/ruby-3.4.0/ruby/internal/encoding/encoding.h:771:16: note: 'false' is defined in header '<stdbool.h>'; this is probably fixable by adding '#include <stdbool.h>'
+C:/Ruby34-x64/include/ruby-3.4.0/ruby/internal/encoding/encoding.h:777:16: error: 'true' undeclared (first use in this function)
+  777 |         return true;
+      |                ^~~~
+C:/Ruby34-x64/include/ruby-3.4.0/ruby/internal/encoding/encoding.h:777:16: note: 'true' is defined in header '<stdbool.h>'; this is probably fixable by adding '#include <stdbool.h>'
+C:/Ruby34-x64/include/ruby-3.4.0/ruby/internal/encoding/encoding.h: At top level:
+C:/Ruby34-x64/include/ruby-3.4.0/ruby/internal/encoding/encoding.h:788:15: error: unknown type name 'bool'
+  788 | static inline bool
+      |               ^~~~
+C:/Ruby34-x64/include/ruby-3.4.0/ruby/internal/encoding/encoding.h:788:15: note: 'bool' is defined in header '<stdbool.h>'; this is probably fixable by adding '#include <stdbool.h>'
+C:/Ruby34-x64/include/ruby-3.4.0/ruby/internal/encoding/encoding.h:926:15: error: unknown type name 'bool'
+  926 | static inline bool
+      |               ^~~~
+C:/Ruby34-x64/include/ruby-3.4.0/ruby/internal/encoding/encoding.h:926:15: note: 'bool' is defined in header '<stdbool.h>'; this is probably fixable by adding '#include <stdbool.h>'
+C:/Ruby34-x64/include/ruby-3.4.0/ruby/internal/encoding/ctype.h:42:15: error: unknown type name 'bool'
+   42 | static inline bool
+      |               ^~~~
+C:/Ruby34-x64/include/ruby-3.4.0/ruby/internal/encoding/ctype.h:28:1: note: 'bool' is defined in header '<stdbool.h>'; this is probably fixable by adding '#include <stdbool.h>'
+   27 | #include "ruby/internal/encoding/encoding.h"
+  +++ |+#include <stdbool.h>
+   28 | #include "ruby/internal/value.h"
+C:/Ruby34-x64/include/ruby-3.4.0/ruby/internal/encoding/ctype.h:62:15: error: unknown type name 'bool'
+   62 | static inline bool
+      |               ^~~~
+C:/Ruby34-x64/include/ruby-3.4.0/ruby/internal/encoding/ctype.h:62:15: note: 'bool' is defined in header '<stdbool.h>'; this is probably fixable by adding '#include <stdbool.h>'
+C:/Ruby34-x64/include/ruby-3.4.0/ruby/internal/encoding/ctype.h:81:15: error: unknown type name 'bool'
+   81 | static inline bool
+      |               ^~~~
+C:/Ruby34-x64/include/ruby-3.4.0/ruby/internal/encoding/ctype.h:81:15: note: 'bool' is defined in header '<stdbool.h>'; this is probably fixable by adding '#include <stdbool.h>'
+C:/Ruby34-x64/include/ruby-3.4.0/ruby/internal/encoding/ctype.h:95:15: error: unknown type name 'bool'
+   95 | static inline bool
+      |               ^~~~
+C:/Ruby34-x64/include/ruby-3.4.0/ruby/internal/encoding/ctype.h:95:15: note: 'bool' is defined in header '<stdbool.h>'; this is probably fixable by adding '#include <stdbool.h>'
+C:/Ruby34-x64/include/ruby-3.4.0/ruby/internal/encoding/ctype.h:109:15: error: unknown type name 'bool'
+  109 | static inline bool
+      |               ^~~~
+C:/Ruby34-x64/include/ruby-3.4.0/ruby/internal/encoding/ctype.h:109:15: note: 'bool' is defined in header '<stdbool.h>'; this is probably fixable by adding '#include <stdbool.h>'
+C:/Ruby34-x64/include/ruby-3.4.0/ruby/internal/encoding/ctype.h:123:15: error: unknown type name 'bool'
+  123 | static inline bool
+      |               ^~~~
+C:/Ruby34-x64/include/ruby-3.4.0/ruby/internal/encoding/ctype.h:123:15: note: 'bool' is defined in header '<stdbool.h>'; this is probably fixable by adding '#include <stdbool.h>'
+C:/Ruby34-x64/include/ruby-3.4.0/ruby/internal/encoding/ctype.h:137:15: error: unknown type name 'bool'
+  137 | static inline bool
+      |               ^~~~
+C:/Ruby34-x64/include/ruby-3.4.0/ruby/internal/encoding/ctype.h:137:15: note: 'bool' is defined in header '<stdbool.h>'; this is probably fixable by adding '#include <stdbool.h>'
+C:/Ruby34-x64/include/ruby-3.4.0/ruby/internal/encoding/ctype.h:151:15: error: unknown type name 'bool'
+  151 | static inline bool
+      |               ^~~~
+C:/Ruby34-x64/include/ruby-3.4.0/ruby/internal/encoding/ctype.h:151:15: note: 'bool' is defined in header '<stdbool.h>'; this is probably fixable by adding '#include <stdbool.h>'
+C:/Ruby34-x64/include/ruby-3.4.0/ruby/internal/encoding/ctype.h:165:15: error: unknown type name 'bool'
+  165 | static inline bool
+      |               ^~~~
+C:/Ruby34-x64/include/ruby-3.4.0/ruby/internal/encoding/ctype.h:165:15: note: 'bool' is defined in header '<stdbool.h>'; this is probably fixable by adding '#include <stdbool.h>'
+C:/Ruby34-x64/include/ruby-3.4.0/ruby/internal/encoding/ctype.h:179:15: error: unknown type name 'bool'
+  179 | static inline bool
+      |               ^~~~
+C:/Ruby34-x64/include/ruby-3.4.0/ruby/internal/encoding/ctype.h:179:15: note: 'bool' is defined in header '<stdbool.h>'; this is probably fixable by adding '#include <stdbool.h>'
+C:/Ruby34-x64/include/ruby-3.4.0/ruby/internal/encoding/ctype.h:193:15: error: unknown type name 'bool'
+  193 | static inline bool
+      |               ^~~~
+C:/Ruby34-x64/include/ruby-3.4.0/ruby/internal/encoding/ctype.h:193:15: note: 'bool' is defined in header '<stdbool.h>'; this is probably fixable by adding '#include <stdbool.h>'
+C:/Ruby34-x64/include/ruby-3.4.0/ruby/internal/encoding/ctype.h:207:15: error: unknown type name 'bool'
+  207 | static inline bool
+      |               ^~~~
+C:/Ruby34-x64/include/ruby-3.4.0/ruby/internal/encoding/ctype.h:207:15: note: 'bool' is defined in header '<stdbool.h>'; this is probably fixable by adding '#include <stdbool.h>'
+In file included from protobuf.h:50:
+C:/Ruby34-x64/include/ruby-3.4.0/ruby/vm.h:57:1: error: unknown type name 'bool'
+   57 | bool ruby_free_at_exit_p(void);
+      | ^~~~
+C:/Ruby34-x64/include/ruby-3.4.0/ruby/vm.h:1:1: note: 'bool' is defined in header '<stdbool.h>'; this is probably fixable by adding '#include <stdbool.h>'
+  +++ |+#include <stdbool.h>
+    1 | #ifndef RUBY_VM_H                                    /*-*-C++-*-vi:se ft=cpp:*/
+make: *** [Makefile:251: protobuf.o] Error 1
+
+make failed, exit code 2
