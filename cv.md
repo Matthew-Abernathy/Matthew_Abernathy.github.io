@@ -8,7 +8,7 @@ jsarr:
 
 <h1 id="cv-title"><a href="{{ site.url }}">Qianyu Zheng</a></h1>
 
-<p id="cv-subtitle"><i>Undergraduate Student, Researcher (<span class="cv-ai">ML</span>)</i></p>
+<p id="cv-subtitle"><i>Master's Student, Researcher (<span class="cv-ai">ML</span>)</i></p>
 
 <!-- <div id="cv-toc">
 <ul class="cv-description">
@@ -30,13 +30,13 @@ jsarr:
 </div> -->
 
 <div>
-I primarily work on applying computational methods, specifically <b>machine learning</b>, in scientific discoveries of natural science. My current research focuses on leveraging big data mining, machine learning, and high performance computing in <b>computational modeling</b> to answer scientific questions and empower data-driven decision making.
+I primarily work on applying computational methods, specifically <b>machine learning</b>, in scientific discoveries. My current research focuses on leveraging big data mining, machine learning, and high performance computing in <b>computational modeling</b> to answer scientific questions and empower data-driven decision making.
 </div>
 
 <div class="cv-spacer"></div>
 
 <div>
-During my Bachelor studies and internship, I have collaborated with researchers, scholars, and developers from Georgia Tech <img class="intro-logo" style="width: 24px;" src="/images/Georgia_Tech_logo.svg">, Leibnitz Institute of Plant Biochemistry <img class="intro-logo" style="width: 24px;" src="/images/ipb_logo.svg">, and University of Maryland <img class="intro-logo" style="width: 24px;" src="/images/UMD_logo.svg">.
+During my studies and internship, I have collaborated with researchers, scholars, and developers from Georgia Tech <img class="intro-logo" style="width: 24px;" src="/images/Georgia_Tech_logo.svg">, Leibnitz Institute of Plant Biochemistry <img class="intro-logo" style="width: 24px;" src="/images/ipb_logo.svg">, University of Maryland <img class="intro-logo" style="width: 24px;" src="/images/UMD_logo.svg"> and Fraunhofer IWES <img class="intro-logo" style="width: 24px;" src="/images\fraunhofer_gesellschaft_logo.svg">.
 </div>
 
 <div class="cv-spacer"></div>
