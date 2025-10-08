@@ -50,7 +50,23 @@
   description: CV PDF
   color: "#ba2818"
   class: "far fa-file-pdf icon"
-  url: "/cv.pdf"
+  url: "../CV/CV.pdf"
+  on-homepage: false
+  cv-group: 1
+
+- id: cv-EU
+  description: CV (European sytle) PDF
+  color: "#ba2818"
+  class: "far fa-file-pdf icon"
+  url: "../CV/Qianyu_Zheng_CV_EU_style.pdf"
+  on-homepage: false
+  cv-group: 1
+
+- id: cv-DE
+  description: CV (in German) PDF
+  color: "#ba2818"
+  class: "far fa-file-pdf icon"
+  url: "../CV/Qianyu_Zheng_Deutsch_Lebenslauf.pdf"
   on-homepage: false
   cv-group: 1
 
