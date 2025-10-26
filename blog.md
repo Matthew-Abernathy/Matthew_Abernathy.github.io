@@ -4,24 +4,27 @@ title: Blog
 permalink: blog/
 ---
 
-<p>Things I think about, read, and write.</p>
-
+<p>Nothing too technical, by and about myself</p>
 <div class="posts">
-  {% for post in site.categories.blog limit:5 %}
-  <article class="post">
-    <h2 class="post-title">
-      <a href="{{ site.baseurl }}{{ post.url }}">
-        {{ post.title }}
-      </a>
-    </h2>
 
-    <time datetime="{{ post.date | date: "%B %-d, %Y" }}" class="post-date">{{ post.date | date: "%B %-d, %Y" }}</time>
+  {% for post in site.categories.blog %}
+    {% unless post.path contains '/chin-' %}
+    <article class="post">
+      <h2 class="post-title">
+        <a href="{{ site.baseurl }}{{ post.url }}">
+          {{ post.title }}
+        </a>
+      </h2>
 
-    {{ post.excerpt }}
-  </article>
+      <time datetime="{{ post.date | date: "%B %-d, %Y" }}" class="post-date">{{ post.date | date: "%B %-d, %Y" }}</time>
+
+      {{ post.excerpt }}
+    </article>
+    {% endunless %}
   {% endfor %}
 </div>
 
+{%comment%}
 <hr/>
 
 <h1>Blog Archive</h1>
@@ -39,3 +42,4 @@ permalink: blog/
   </article>
   {% endfor %}
 </div>
+{%endcomment%}
