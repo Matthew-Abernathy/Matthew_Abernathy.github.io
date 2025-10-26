@@ -1,13 +1,26 @@
-- title: "Excel-based Vocabulary Learning Tool"
-  date: "May 2025"
-  url: https://drive.google.com/file/d/1GRWUJWjoHZ4kL2Tyj1_eswxz9PwO0tOe/view?usp=drive_link
+# - title: "Excel-based Vocabulary Learning Tool"
+#   date: "May 2025"
+#   url: https://drive.google.com/file/d/1GRWUJWjoHZ4kL2Tyj1_eswxz9PwO0tOe/view?usp=drive_link
+#   year: "May 2025"
+#   featured: true
+#   feature-order: 1
+#   feature-title: Excel-based Vocabulary Learning Tool
+#   feature-description: A vocabulary learning tool that utilizes Excel's built-in functions to enhance language learning.
+#   image: /images/featured/excel-vocab.png
+#   cv_description: "Developed a vocabulary learning tool using <b>Excel</b> and <b>VBA programming</b>."
+
+- title: "GCP Prompt Engineering for GPT"
+  date: "October 2025"
+  code: https://colab.research.google.com/drive/1m4a0W_xzVc5A-s3CeDflsQhZ5cMPgqa7?usp=sharing
   year: "May 2025"
   featured: true
   feature-order: 1
-  feature-title: Excel-based Vocabulary Learning Tool
-  feature-description: A vocabulary learning tool that utilizes Excel's built-in functions to enhance language learning.
-  image: /images/featured/excel-vocab.png
-  cv_description: "Developed a vocabulary learning tool using <b>Excel</b> and <b>VBA programming</b>."
+  course: "Deep Learning, Large Language Models"
+  feature-title: GCP Prompt Engineering for GPT
+  feature-description: Implementation of the GCP algorithm to guide GPT models toward generating responses containing specific keywords.
+  image: /images/featured/GCG-logo.png
+  cv_description: "Implemented a possible jailbreaking procedure for LLMs.<br>
+  - Performed prompt engineering for GPT with the Greedy Coordinate Gradient (GCP) algorithm, <b>huggingface transformers</b> and <b>PyTorch</b>."
 
 - title: "Natural Language to Protein Database Query"
   date: "August 2024 - Now"
