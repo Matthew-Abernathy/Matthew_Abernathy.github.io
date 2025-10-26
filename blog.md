@@ -4,7 +4,7 @@ title: Blog
 permalink: blog/
 ---
 
-<p>Nothing too technical, by and about myself</p>
+<p>Nothing too technical, by and about myself.</p>
 <div class="posts">
 
   {% for post in site.categories.blog %}

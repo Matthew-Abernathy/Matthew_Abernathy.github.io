@@ -8,7 +8,7 @@ permalink: everything-else/
 Things I do, including research, academic course projects, and miscellaneous interests.
 
 ## [Blog][blog]
-Nothing too technical, by and about myself
+Nothing too technical, by and about myself.
 
 {%comment%}
 ## [Stuff I Use][stuff-i-use]
