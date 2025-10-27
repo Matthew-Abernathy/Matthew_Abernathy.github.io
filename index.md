@@ -8,8 +8,8 @@ title: Home
 		<div id="intro-image-wrapper">
 			<img id="intro-image" src="/images/portrait.jpg"></div>
 		<div id="intro-title-text-wrapper">
-			<h1 id="intro-title">Hi, I'm Qianyu Zheng</h1>
-			<div id="intro-subtitle">I'm a Master's Student at Georgia Tech.</div>
+			<h1 id="intro-title">Hello! Matthew Abernathy</h1>
+			<div id="intro-subtitle">I'm a Undergraduate Student at Georgia Tech.</div>
 			<div id="intro-title-socials">
 				{% for link in site.data.social-links %}
 					{% if link.on-homepage == true %}
@@ -26,18 +26,18 @@ title: Home
 		<a href="{{ site.url }}/everything-else"><div><i class="fa fa-list-ul icon icon-right-space"></i>Everything Else</div></a>
 	</div>
 	<div>
-		Welcome to my personal website! I am an ambitious Master's Computer Science student with specialization in <b>scientific computing</b> at Georgia Institute of Technology. I maintain a perfect 4.0 GPA and own a strong foundation in programming languages like Python and Java, machine learning theory and cloud computing.
+		Welcome to my personal website!  <b>Chemical Engineering and German </b> at Georgia Institute of Technology. 
 	</div>
 	<div style="height: 1rem"></div>
 	<div>
-		As a researcher, I primarily work on applying computational methods, specifically <b>machine learning</b>, in scientific discoveries of natural science. My current research focuses on leveraging big data mining, machine learning, and high performance computing in <b>computational modeling</b> to answer scientific questions and empower data-driven decision making.
+		As a researcher, I primarily work on Micro kinetic modeling
 	</div>
 	<div style="height: 1rem"></div>
 	<!-- <div>
 		I am currently working in the <a href="https://www.fung-group.org/"> Fung group</a> under the instruction of Assistant Professor <a href="https://scholar.google.com/citations?user=2QsddMIAAAAJ"> Victor Fung</a>, Georgia Tech School of Computational Science. My research is supported by the <i>President's Undergraduate Research Awards</i>, a scholarship granted to undergraduate research projects by Georgia Tech.
 	</div> -->
 	<div>
-		I am currently interning as a data analyst at the <a href="https://www.iwes.fraunhofer.de/en.html">Fraunhofer Institute for Wind Energy Systems</a>, where I leverage my expertise in programming, big data manipulation and machine learning on extracting, transforming, and cleaning data from various wind measurement devices. This work establishes a robust foundation for developing advanced wind wake models.
+		I am currently interning as a R&D Intern at Kimberly Clark 
 	</div>
 	<div style="height: 1rem"></div>
 	<div>
