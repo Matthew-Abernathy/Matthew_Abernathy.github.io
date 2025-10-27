@@ -6,7 +6,7 @@ title: Home
 <div id="intro-wrapper" class="l-text">
 	<div id="intro-title-wrapper">
 		<div id="intro-image-wrapper">
-			<img id="intro-image" src="/images/portrait.jpg"></div>
+			<img id="intro-image" src="/images/image001.png"></div>
 		<div id="intro-title-text-wrapper">
 			<h1 id="intro-title">Hello! Matthew Abernathy</h1>
 			<div id="intro-subtitle">I'm a Undergraduate Student at Georgia Tech.</div>
