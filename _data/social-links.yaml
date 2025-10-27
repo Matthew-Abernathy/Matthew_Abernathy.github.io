@@ -1,32 +1,26 @@
 - id: email
-  description: "qzheng75@gatech.edu"
+  description: "mabernathy8@gatech.edu"
   color: "#515151"
   class: "fas fa-envelope icon"
-  url: "mailto:qzheng75@gatech.edu"
+  url: "mailto:mabernathy8@gatech.edu"
   on-homepage: true
   cv-group: 1
 
-- id: twitter
-  description: "@qianyu_zheng"
-  color: "#1da1f2"
-  class: "fab fa-twitter icon"
-  url: "https://X.com/qianyu_zheng"
-  on-homepage: true
-  cv-group: 2
+
 
 - id: github
-  description: "qzheng75"
+  description: "Matthew-Abernathy"
   color: "#6e5494"
   class: "fab fa-github icon"
-  url: "https://github.com/qzheng75"
+  url: "https://github.com/Matthew-Abernathy"
   on-homepage: true
   cv-group: 2
 
 - id: linkedin
-  description: "zheng-qianyu-365b60250"
+  description: "matthew-abernathy-abe"
   color: "#0077b5"
   class: "fab fa-linkedin-in icon"
-  url: "https://www.linkedin.com/in/zheng-qianyu-365b60250/"
+  url: "https://www.linkedin.com/in/matthew-abernathy-abe/"
   on-homepage: true
 
 
